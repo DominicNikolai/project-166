@@ -3,7 +3,7 @@ const $hero = $('.hero');
 const TOTAL_FRAMES = 150;
 
 function generateSrc(nFrame) {
-  return `./assets/frames/ezgif-frame-081-${nFrame}.webp`;
+  return `./assets/frames/ezgif-frame-${nFrame.toString().padStart(3,'0')}.webp`;
 }
 
 function updateImage(nFrame) {
