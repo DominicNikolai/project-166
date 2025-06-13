@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "dominic",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^8.5.3"
+  }
+}
