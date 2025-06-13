@@ -1,9 +1,9 @@
 const $ = el => document.querySelector(el);
 const $hero = $('.hero');
-const TOTAL_FRAMES = 150;
+const TOTAL_FRAMES = 100;
 
 function generateSrc(nFrame) {
-  return `./assets/frames/ezgif-frame-${nFrame.toString().padStart(3,'0')}.webp`;
+  return `./assets/frames/ezgif-frame-${nFrame.toString().padStart(3,'0')}.jpg`;
 }
 
 function updateImage(nFrame) {
